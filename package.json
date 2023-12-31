@@ -1,0 +1,24 @@
+{
+	"name": "interventions-history-exporter",
+	"version": "1.0.0",
+	"description": "A small program to export the interventions history of one or more firemen from the MIR platform to an Excel file.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cyrilschreiber3/interventions-history-exporter.git"
+	},
+	"author": "Cyril Schreiber",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/cyrilschreiber3/interventions-history-exporter/issues"
+	},
+	"homepage": "https://github.com/cyrilschreiber3/interventions-history-exporter",
+	"dependencies": {
+		"axios": "^1.6.3",
+		"dotenv": "^16.3.1",
+		"excel4node": "^1.8.2"
+	}
+}
